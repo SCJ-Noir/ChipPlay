@@ -1,0 +1,9 @@
+POST http://127.0.0.1:8000/channel/join/?format=json HTTP/1.1
+content-type: application/json
+
+{
+    "room_creation_id": "fdsklfjsl",
+    "member_limit": 12,
+    "lower_betting": 5325,
+    "bet_attribute": "fds"
+}
